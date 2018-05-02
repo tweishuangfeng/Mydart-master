@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="1921px"
+    android:layout_height="1082px"
+    android:background="@drawable/bg">
+
+
+    <LinearLayout
+        android:id="@+id/infolist"
+        android:orientation="vertical"
+        android:layout_width="352px"
+        android:layout_height="1082px"
+        android:src="@drawable/backgrlist"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        >
+
+        <TextView
+            android:layout_width="306px"
+            android:layout_height="82px"
+            android:src="@drawable/typetext"
+            android:text="301 游戏"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+      <RelativeLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+
+          >
+
+          <ImageView
+              android:layout_width="120px"
+              android:layout_height="120px"
+              android:src="@drawable/people"
+              android:layout_marginLeft="20px"
+              android:layout_marginTop="26px"
+              />
+
+          <ImageView
+              android:id="@+id/ppd"
+              android:layout_width="75px"
+              android:layout_height="43px"
+              android:src="@drawable/ppd"
+              android:layout_marginLeft="153.2px"
+              android:layout_marginTop="59.4px"
+              />
+
+          <ImageView
+              android:layout_width="101px"
+              android:layout_height="48px"
+              android:src="@drawable/pprscore"
+              android:layout_marginLeft="156.2px"
+              android:layout_below="@id/ppd"
+              android:layout_marginTop="4px"
+
+              />
+
+      </RelativeLayout>
+
+        <View
+            android:layout_marginTop="1px"
+            android:layout_height="2px"
+            android:layout_width="match_parent"
+            android:background="#66CCFF"
+            />
+
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:id="@+id/huiheshu"
+            android:layout_width="299px"
+            android:layout_height="56px"
+            android:layout_marginLeft="13.2px"
+            android:layout_marginTop="29px"
+            android:orientation="horizontal">
+
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/huihetitle"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textColor="#1E90FF"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                >
+            </TextView>
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/baifenbi"
+                android:textStyle="bold"
+                android:textSize="22dp">
+            </TextView>
+
+        </LinearLayout>
+
+        <!--<TextView-->
+            <!--android:id="@+id/huiheshu"-->
+            <!--android:layout_width="212px"-->
+            <!--android:layout_height="56px"-->
+            <!--android:textColor="@color/colorAccent"-->
+            <!--android:gravity="center"-->
+            <!--android:textStyle="bold"-->
+
+            <!--android:layout_marginLeft="13.2px"-->
+            <!--android:layout_marginTop="29px"-->
+            <!--/>-->
+
+
+        <ListView
+            android:id="@+id/scorelist"
+
+
+            android:layout_width="299px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13.2px"
+            android:layout_marginTop="4px"
+
+            android:dividerHeight="2dp"
+            android:divider="@color/colorAccent">
+
+
+
+        </ListView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/daojishi"
+        android:orientation="horizontal"
+        android:layout_width="1370px"
+        android:layout_height="71px"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="278px"
+        android:layout_marginRight="273px"
+        android:src="@drawable/square4"
+        >
+
+        <ImageView
+            android:layout_width="43px"
+            android:layout_height="44px"
+            android:src="@drawable/filler"
+            android:layout_marginLeft="525px"
+            android:layout_marginRight="802px"
+            android:layout_marginTop="13px"
+            android:layout_marginBottom="14px" />
+
+
+
+        <ImageView
+            android:layout_width="114px"
+            android:layout_height="68px"
+            android:src="@drawable/time"
+            android:layout_marginLeft="31px"
+
+            android:layout_marginTop="4px"
+            android:layout_marginBottom="1px"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="304px"
+        android:layout_height="82px"
+        android:orientation="horizontal"
+        android:src="@drawable/lineshade"
+
+       android:layout_marginLeft="1616px"
+        android:layout_marginRight="1px"
+        android:layout_marginBottom="1000px"
+        android:layout_alignParentTop="true"
+        >
+
+
+        <ImageView
+            android:layout_width="150px"
+            android:layout_height="37px"
+            android:src="@drawable/linestate"
+            android:layout_marginLeft="56px"
+            android:layout_marginTop="28px"
+            android:layout_marginRight="25px"
+
+
+            />
+
+        <ImageView
+            android:layout_width="41px"
+            android:layout_height="41px"
+            android:src="@drawable/netlogo"
+            android:layout_marginTop="28px"
+            android:layout_marginBottom="22px"
+            android:layout_marginLeft="29px"
+            />
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="127px"
+        android:layout_height="48px"
+        android:src="@drawable/sbull"
+        android:layout_marginLeft="592.1px"
+        android:layout_marginRight="1201.9px"
+        android:layout_marginTop="113.5px"
+        android:layout_marginBottom="920.5px"
+        />
+
+
+    <ImageView
+        android:layout_width="127px"
+        android:layout_height="48px"
+        android:src="@drawable/sbull1"
+        android:layout_marginLeft="881.1px"
+        android:layout_marginRight="912.9px"
+        android:layout_marginTop="113.5px"
+        android:layout_marginBottom="920.5px"
+
+        />
+
+    <ImageView
+        android:layout_width="214px"
+        android:layout_height="48px"
+        android:src="@drawable/single20"
+        android:layout_marginLeft="1137.1px"
+        android:layout_marginRight="569.9px"
+        android:layout_marginTop="113.5px"
+        android:layout_marginBottom="920.5px"
+        />
+
+
+
+
+
+    <TextView
+        android:id="@+id/screenscore"
+        android:layout_width="1008px"
+        android:layout_height="484px"
+        android:text="301"
+        android:gravity="center"
+        android:textColor="#FFD700"
+        android:textStyle="bold"
+        android:textSize="450px"
+        android:layout_marginLeft="474px"
+        android:layout_marginRight="439px"
+        android:layout_marginTop="262px"
+        android:layout_marginBottom="336px"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/biaotai"
+        android:orientation="horizontal"
+        android:layout_width="1243px"
+        android:layout_height="103px"
+        android:src="@drawable/square4copy"
+        android:layout_marginLeft="329px"
+        android:layout_marginTop="782px"
+        android:layout_marginBottom="197px"
+
+        android:layout_marginRight="349px"
+        >
+
+
+        <CheckBox
+            android:id="@+id/dart1"
+            android:layout_width="178px"
+            android:layout_height="83px"
+
+            android:background="@drawable/box_check"
+
+            android:layout_marginLeft="254px"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            />
+
+
+        <CheckBox
+            android:id="@+id/dart2"
+            android:layout_width="182px"
+            android:layout_height="86px"
+            android:background="@drawable/box_check"
+            android:layout_marginLeft="99px"
+            android:layout_marginTop="9px"
+            android:layout_marginBottom="8px"
+            />
+
+
+        <CheckBox
+            android:id="@+id/dart3"
+            android:layout_width="182px"
+            android:layout_height="86px"
+            android:background="@drawable/box_check"
+            android:layout_marginLeft="59px"
+            android:layout_marginTop="9px"
+            android:layout_marginBottom="8px"
+            android:layout_marginRight="214px"
+            />
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="313px"
+        android:layout_height="313px"
+        android:src="@drawable/marker"
+        android:layout_marginLeft="1564px"
+        android:layout_marginRight="44px"
+        android:layout_marginTop="170px"
+        android:layout_marginBottom="599px"
+        />
+
+    <ImageView
+        android:layout_width="261px"
+        android:layout_height="262px"
+        android:src="@drawable/screenwindow"
+        android:layout_marginLeft="1590px"
+        android:layout_marginRight="70px"
+        android:layout_marginTop="632px"
+        android:layout_marginBottom="188px"
+        />
+
+
+    <ImageView
+        android:id="@+id/player1"
+        android:layout_width="968px"
+        android:layout_height="197px"
+        android:src="@drawable/wanjia1"
+        android:layout_marginTop="4px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        />
+
+
+    <ImageView
+        android:layout_width="859px"
+        android:layout_height="176px"
+        android:src="@drawable/wanjia2"
+        android:layout_toRightOf="@id/player1"
+        android:layout_marginTop="910px"
+        android:layout_marginRight="96px"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+
+</RelativeLayout>

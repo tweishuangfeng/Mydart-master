@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:background="@drawable/back"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="5dp"
+         />
+
+    <TextView
+        android:id="@+id/xiaoxi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_red_dark"
+        android:gravity="center_horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="广州赛区半决赛即将开始"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xiaoxi2"
+        android:layout_marginTop="120dp"
+
+        >
+
+      <ImageButton
+          android:id="@+id/soft"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/soft"
+          android:layout_weight="1"
+          />
+
+        <ImageButton
+            android:id="@+id/hard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hard"
+            android:layout_weight="1"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
